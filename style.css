@@ -1,0 +1,543 @@
+body {
+    margin: 0%;
+    background-color: #F7F7F7;
+}
+
+.content_heading {
+    color: rgb(36, 99, 92);
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 7px solid orange;
+}
+
+/* ++++++++++++++++++ NavBar ++++++++++++++++++++++ */
+
+.navbar {
+    width: 100%;
+    background-color: #FBF3E4;
+    margin-bottom: 0px;
+    position: fixed;
+    z-index: 5;
+
+}
+
+.nav {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.logo {
+    padding: 20px;
+    width: 30%;
+}
+
+.links {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+
+.links>ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+
+}
+
+.links>ul>li {
+    margin-left: 5%;
+    padding: 10px;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+
+
+/* =================================================== */
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ++++++++++++++++++++++++++ Banner ++++++++++++++++++ */
+
+.banner {
+    background: rgb(36, 99, 92);
+    margin-top:0px;
+    padding-top: 8%;
+    height: 471px;
+    background-image: url(images/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom; 
+}
+
+.wave {
+    display: flex;
+}
+
+/* text part ++++++++++++++++++++*/
+.banner_textpart {
+    width: 50%;
+    padding-top: 4%;
+}
+
+.banner_texts {
+    width: 70%;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+p>.name_text {
+    color: orange;
+    font-weight: 600;
+}
+
+p>.work_text {
+    color: white;
+}
+
+.banner_buttons {
+    width: 70%;
+    margin: auto;
+}
+
+.button_part_text {
+    color: white;
+}
+
+.hire_button {
+    color: white;
+    background-color: rgb(77, 202, 187);
+    box-shadow: 0px 0px 10px rgb(77, 202, 187);
+    border: 0px;
+    border-radius: 5px;
+    font-size: larger;
+    height: 50px;
+    width: 170px;
+    margin: 5px;
+}
+
+.resume_button {
+    color: white;
+    background-color: orange;
+    box-shadow: 0px 0px 10px orange;
+    border: 0px;
+    border-radius: 5px;
+    font-size: larger;
+    height: 50px;
+    width: 170px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+/* image part ++++++++++++++++++*/
+.banner_imagepart {
+    width: 50%;
+    text-align: center;
+}
+
+.banner_imagepart>img {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    width: auto;
+    height: 570px;
+}
+
+
+/* ==================================================== */
+
+/* +++++++++++ About Me +++++++++++++++++ */
+
+.about_me {
+    width: 85%;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+.about_me_heaading {
+    /* margin-left: 0px; */
+    margin: 25px 0px 25px 0px;
+}
+
+.about_me_image {
+    width: 50%;
+    text-align: center;
+}
+
+.about_me_textpart {
+    width: 50%;
+}
+
+.about_me_para {
+    color: rgb(3, 117, 104);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    font-size: large;
+    font-weight: 450;
+}
+
+.technology_box {
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 2px 15px 5px 15px;
+    margin-top: 60px;
+}
+
+.technology_text {
+    color: rgb(3, 117, 104);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    position: relative;
+}
+
+.technology_text:after {
+    content: " ";
+    height: 1px;
+    width: 45%;
+    background: lightgray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.technology_images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.technology_images>img {
+    margin: 5px 0px 20px 0px;
+}
+
+
+
+/* =================================================================== */
+
+
+/* +++++++++++++++++++++++++++ My Portfolio +++++++++++++++++++++++++++ */
+
+
+.portfolio {
+    width: 85%;
+    margin: auto;
+}
+
+.portfolio_heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.portfolio_work_image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project_box{
+    width: 29%;;
+    height: auto;
+    margin: 1%;
+}
+.project_box>a>img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* ===================================================================== */
+
+
+/* +++++++++++++++++++++++++ Resume +++++++++++++++++++++++++++++++++++++ */
+
+
+.resume {
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.resume_heading {
+    margin-bottom: 40px;
+}
+
+.resume_head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(3, 117, 104);
+}
+
+.work_and_education_content {
+    display: flex;
+}
+
+.work_and_education {
+    width: 60%;
+}
+
+.steps {
+    position: relative;
+    padding-left: 45px;
+    list-style: none;
+    color: rgb(3, 117, 104);
+}
+
+.steps::before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 10px;
+    height: 100%;
+    border-left: 2px solid rgb(6, 170, 151);
+}
+.item{
+    position: relative;
+    counter-increment: list;
+    font-size: larger;
+}
+.years{
+    color: white;
+    padding: 2px 15px 2px 15px;
+    background-color: orange;
+    border-radius: 45px;
+    float: right;
+    
+}
+.degree{
+    margin-top: 0px;
+    font-size: large;
+    font-weight: 550;
+}
+.education_text{
+    color: black;
+}
+.item::before{
+    display: inline-block;
+  content: '';
+  position: absolute;
+  left: -30px;
+  height: 100%;
+  width: 10px;
+}
+.item::after{
+    content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -37px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgb(6, 170, 151);
+  border-radius: 50%;
+  background-color: rgb(6, 170, 151);
+}
+
+.resume_image_part {
+    width: 40%;
+    text-align: center;
+}
+
+.my_image {
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.my_image>img {
+    margin-left: -20%;
+}
+
+.social_media_icons {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.social_media_icons>img {
+    height: 45px;
+    width: 45px;
+    margin: 5px;
+}
+
+
+
+/* ============================================================= */
+
+
+/* +++++++++++++++++++++ What People Say About Me+++++++++++ */
+
+
+.people_talk{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.people_heading{
+    margin-bottom: 50px;
+}
+.people{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 40px gray;
+}
+.people_content{
+    width: 20%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 0px 50px 0px;
+}
+.people_content>img{
+    border-radius: 50%;
+}
+
+.testimonial_name{
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    font-size: large;
+}
+.testimonial_company{
+    color: rgb(121, 121, 121);
+}
+.testimonial_comments{
+    color: rgb(81, 80, 80);
+    font-size: large;
+}
+.people_footer{
+    width: 100%;
+    background-color: #FBF3E4;
+    text-align: center;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 550;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+/* =================================================================================== */
+
+
+/* ++++++++++++++++++++++++++++++ Contact Me +++++++++++++++++++++++++++++++++++++++++ */
+
+
+.contact{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact_heading{
+    color: #105652;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.contact_connect{
+    width: 50%;
+    background-color: white;
+    padding: 50px 50px 50px 100px;
+    border-radius: 10px 0px 0px 10px;
+}
+.connect_para{
+    color: #3f3e3e;
+    font-weight: 550;
+}
+.connect_info{
+    color: #858585;
+    margin-top: 25px;
+}
+
+.contact_message{
+    width: 50%;
+    background-color: #FBF3E4;
+    padding: 50px 50px 50px 100px;
+    border-radius: 0px 10px 10px 0px;
+}
+.message_form{
+    color: #3f3e3e;
+    font-weight: 550;
+}
+.message_form>form>input{
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.message_form>form>textarea{
+    width: 80%;
+    height: 55px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.submit_button{
+    width: 30%;
+    height: 35px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    font-weight: 550;
+}
+
+
+/* ========================================================================= */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++ Footer ++++++++++++++++++++++++++++++++++ */
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: #FBF3E4;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    font-size: large;
+    font-weight: 600;
+    padding-top: 25px;
+    color: #535353;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media query */
